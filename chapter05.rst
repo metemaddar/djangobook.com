@@ -998,7 +998,7 @@ Let's take a close look at each part of this ``Publisher.objects.all()`` line:
   know is that managers take care of all "table-level" operations on data
   including, most important, data lookup.
 
-  All models automatically get a ``objects`` manager; you'll use it
+  All models automatically get an ``objects`` manager; you'll use it
   any time you want to look up model instances.
 
 * Finally, we have ``all()``. This is a method on the ``objects`` manager
